@@ -1,0 +1,10 @@
+diagnostic_monitor:
+  ros__parameters:
+    expected_nodes:
+      - "/diagnostic_monitor"
+      - "/talker"
+
+    expected_topics:
+      - "/chatter"
+      - "/parameter_events"
+      - "/rosout"
